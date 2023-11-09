@@ -83,7 +83,7 @@ int main(){
 
       case 4:
         cout<< "Indique el numero que quiere eliminar"; cin>> n ;
-        eliminar(p,n);
+        eliminar(&p,n);
       break;
 
       case 5: 
